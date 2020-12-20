@@ -2,9 +2,10 @@ package firewall
 
 import (
 	"fmt"
+
 	"github.com/containernetworking/cni/pkg/skel"
 	"github.com/containernetworking/cni/pkg/types"
-	"github.com/containernetworking/cni/pkg/types/current"
+	current "github.com/containernetworking/cni/pkg/types/040"
 )
 
 // Add initializes an instance of Plugin and adds necessary
