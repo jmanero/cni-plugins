@@ -5,10 +5,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/greenpau/cni-plugins/pkg/portmap"
-	"github.com/greenpau/versioned"
 	"os"
+
+	"github.com/containernetworking/cni/pkg/skel"
+	"github.com/greenpau/versioned"
+	"github.com/jmanero/cni-plugins/pkg/portmap"
 )
 
 var (

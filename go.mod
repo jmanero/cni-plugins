@@ -1,4 +1,4 @@
-module github.com/greenpau/cni-plugins
+module github.com/jmanero/cni-plugins
 
 go 1.14
 

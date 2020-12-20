@@ -2,9 +2,10 @@ package portmap
 
 import (
 	"fmt"
-	current "github.com/containernetworking/cni/pkg/types/040"
-	"github.com/greenpau/cni-plugins/pkg/utils"
 	"net"
+
+	current "github.com/containernetworking/cni/pkg/types/040"
+	"github.com/jmanero/cni-plugins/pkg/utils"
 )
 
 // Interface represents a collection of addresses

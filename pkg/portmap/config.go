@@ -3,10 +3,11 @@ package portmap
 import (
 	"encoding/json"
 	"fmt"
+
 	"github.com/containernetworking/cni/pkg/types"
 	current "github.com/containernetworking/cni/pkg/types/040"
 	"github.com/containernetworking/cni/pkg/version"
-	"github.com/greenpau/cni-plugins/pkg/utils"
+	"github.com/jmanero/cni-plugins/pkg/utils"
 
 	"net"
 )

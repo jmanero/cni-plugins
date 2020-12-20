@@ -1,8 +1,9 @@
 package firewall
 
 import (
-	"github.com/greenpau/cni-plugins/pkg/utils"
 	"testing"
+
+	"github.com/jmanero/cni-plugins/pkg/utils"
 )
 
 func TestValidateInput(t *testing.T) {
